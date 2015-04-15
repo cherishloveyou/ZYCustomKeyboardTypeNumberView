@@ -7,6 +7,7 @@
 
 *   导入头文件：`#import "ZYCustomKeyboardTypeNumberView.h"`
 *   创建只需要一句话：`numberTextField`为想要添加数字键盘的textField并遵守`ZYCustomKeyboardTypeNumberViewDelegate`协议
+   
 ```
 [ZYCustomKeyboardTypeNumberView customKeyboardViewWithServiceTextField:numberTextField Delegate:self];
 ```
