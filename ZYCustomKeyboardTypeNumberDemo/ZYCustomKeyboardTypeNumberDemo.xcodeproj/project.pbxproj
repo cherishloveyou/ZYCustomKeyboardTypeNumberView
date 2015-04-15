@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54356F61ADE42B000C63709 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54356F51ADE42B000C63709 /* main.m */; };
+		A54356F91ADE42B000C63709 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54356F81ADE42B000C63709 /* AppDelegate.m */; };
+		A54356FC1ADE42B000C63709 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54356FB1ADE42B000C63709 /* ViewController.m */; };
+		A54356FF1ADE42B000C63709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54356FD1ADE42B000C63709 /* Main.storyboard */; };
+		A54357011ADE42B000C63709 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54357001ADE42B000C63709 /* Images.xcassets */; };
+		A54357041ADE42B000C63709 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54357021ADE42B000C63709 /* LaunchScreen.xib */; };
+		A54357101ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A543570F1ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests.m */; };
+		A543572D1ADE448600C63709 /* ZYCustomKeyboardTypeNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = A543572C1ADE448600C63709 /* ZYCustomKeyboardTypeNumberView.m */; };
+		A543572F1ADE45FA00C63709 /* ZYCustomKeyboardTypeNumberView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A543572E1ADE45FA00C63709 /* ZYCustomKeyboardTypeNumberView.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A543570A1ADE42B000C63709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54356E81ADE42B000C63709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54356EF1ADE42B000C63709;
+			remoteInfo = ZYCustomKeyboardTypeNumberDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A54356F01ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCustomKeyboardTypeNumberDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54356F41ADE42B000C63709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54356F51ADE42B000C63709 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A54356F71ADE42B000C63709 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A54356F81ADE42B000C63709 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A54356FA1ADE42B000C63709 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A54356FB1ADE42B000C63709 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A54356FE1ADE42B000C63709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A54357001ADE42B000C63709 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A54357031ADE42B000C63709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A54357091ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCustomKeyboardTypeNumberDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A543570E1ADE42B000C63709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A543570F1ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCustomKeyboardTypeNumberDemoTests.m; sourceTree = "<group>"; };
+		A543572B1ADE448600C63709 /* ZYCustomKeyboardTypeNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCustomKeyboardTypeNumberView.h; sourceTree = "<group>"; };
+		A543572C1ADE448600C63709 /* ZYCustomKeyboardTypeNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCustomKeyboardTypeNumberView.m; sourceTree = "<group>"; };
+		A543572E1ADE45FA00C63709 /* ZYCustomKeyboardTypeNumberView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYCustomKeyboardTypeNumberView.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54356ED1ADE42B000C63709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54357061ADE42B000C63709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54356E71ADE42B000C63709 = {
+			isa = PBXGroup;
+			children = (
+				A54356F21ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemo */,
+				A543570C1ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests */,
+				A54356F11ADE42B000C63709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54356F11ADE42B000C63709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54356F01ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemo.app */,
+				A54357091ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54356F21ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A543572A1ADE447E00C63709 /* ZYCustomKeyboardTypeNumberView */,
+				A54356F71ADE42B000C63709 /* AppDelegate.h */,
+				A54356F81ADE42B000C63709 /* AppDelegate.m */,
+				A54356FA1ADE42B000C63709 /* ViewController.h */,
+				A54356FB1ADE42B000C63709 /* ViewController.m */,
+				A54356FD1ADE42B000C63709 /* Main.storyboard */,
+				A54357001ADE42B000C63709 /* Images.xcassets */,
+				A54357021ADE42B000C63709 /* LaunchScreen.xib */,
+				A54356F31ADE42B000C63709 /* Supporting Files */,
+			);
+			path = ZYCustomKeyboardTypeNumberDemo;
+			sourceTree = "<group>";
+		};
+		A54356F31ADE42B000C63709 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A54356F41ADE42B000C63709 /* Info.plist */,
+				A54356F51ADE42B000C63709 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A543570C1ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A543570F1ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests.m */,
+				A543570D1ADE42B000C63709 /* Supporting Files */,
+			);
+			path = ZYCustomKeyboardTypeNumberDemoTests;
+			sourceTree = "<group>";
+		};
+		A543570D1ADE42B000C63709 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A543570E1ADE42B000C63709 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A543572A1ADE447E00C63709 /* ZYCustomKeyboardTypeNumberView */ = {
+			isa = PBXGroup;
+			children = (
+				A543572E1ADE45FA00C63709 /* ZYCustomKeyboardTypeNumberView.bundle */,
+				A543572B1ADE448600C63709 /* ZYCustomKeyboardTypeNumberView.h */,
+				A543572C1ADE448600C63709 /* ZYCustomKeyboardTypeNumberView.m */,
+			);
+			path = ZYCustomKeyboardTypeNumberView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54356EF1ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54357131ADE42B000C63709 /* Build configuration list for PBXNativeTarget "ZYCustomKeyboardTypeNumberDemo" */;
+			buildPhases = (
+				A54356EC1ADE42B000C63709 /* Sources */,
+				A54356ED1ADE42B000C63709 /* Frameworks */,
+				A54356EE1ADE42B000C63709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYCustomKeyboardTypeNumberDemo;
+			productName = ZYCustomKeyboardTypeNumberDemo;
+			productReference = A54356F01ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54357081ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54357161ADE42B000C63709 /* Build configuration list for PBXNativeTarget "ZYCustomKeyboardTypeNumberDemoTests" */;
+			buildPhases = (
+				A54357051ADE42B000C63709 /* Sources */,
+				A54357061ADE42B000C63709 /* Frameworks */,
+				A54357071ADE42B000C63709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A543570B1ADE42B000C63709 /* PBXTargetDependency */,
+			);
+			name = ZYCustomKeyboardTypeNumberDemoTests;
+			productName = ZYCustomKeyboardTypeNumberDemoTests;
+			productReference = A54357091ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54356E81ADE42B000C63709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "张杨";
+				TargetAttributes = {
+					A54356EF1ADE42B000C63709 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A54357081ADE42B000C63709 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A54356EF1ADE42B000C63709;
+					};
+				};
+			};
+			buildConfigurationList = A54356EB1ADE42B000C63709 /* Build configuration list for PBXProject "ZYCustomKeyboardTypeNumberDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A54356E71ADE42B000C63709;
+			productRefGroup = A54356F11ADE42B000C63709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54356EF1ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemo */,
+				A54357081ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54356EE1ADE42B000C63709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54356FF1ADE42B000C63709 /* Main.storyboard in Resources */,
+				A54357041ADE42B000C63709 /* LaunchScreen.xib in Resources */,
+				A543572F1ADE45FA00C63709 /* ZYCustomKeyboardTypeNumberView.bundle in Resources */,
+				A54357011ADE42B000C63709 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54357071ADE42B000C63709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54356EC1ADE42B000C63709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54356FC1ADE42B000C63709 /* ViewController.m in Sources */,
+				A54356F91ADE42B000C63709 /* AppDelegate.m in Sources */,
+				A54356F61ADE42B000C63709 /* main.m in Sources */,
+				A543572D1ADE448600C63709 /* ZYCustomKeyboardTypeNumberView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54357051ADE42B000C63709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54357101ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A543570B1ADE42B000C63709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54356EF1ADE42B000C63709 /* ZYCustomKeyboardTypeNumberDemo */;
+			targetProxy = A543570A1ADE42B000C63709 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A54356FD1ADE42B000C63709 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54356FE1ADE42B000C63709 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A54357021ADE42B000C63709 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54357031ADE42B000C63709 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A54357111ADE42B000C63709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A54357121ADE42B000C63709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54357141ADE42B000C63709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYCustomKeyboardTypeNumberDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A54357151ADE42B000C63709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYCustomKeyboardTypeNumberDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A54357171ADE42B000C63709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYCustomKeyboardTypeNumberDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYCustomKeyboardTypeNumberDemo.app/ZYCustomKeyboardTypeNumberDemo";
+			};
+			name = Debug;
+		};
+		A54357181ADE42B000C63709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYCustomKeyboardTypeNumberDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYCustomKeyboardTypeNumberDemo.app/ZYCustomKeyboardTypeNumberDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54356EB1ADE42B000C63709 /* Build configuration list for PBXProject "ZYCustomKeyboardTypeNumberDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54357111ADE42B000C63709 /* Debug */,
+				A54357121ADE42B000C63709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54357131ADE42B000C63709 /* Build configuration list for PBXNativeTarget "ZYCustomKeyboardTypeNumberDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54357141ADE42B000C63709 /* Debug */,
+				A54357151ADE42B000C63709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A54357161ADE42B000C63709 /* Build configuration list for PBXNativeTarget "ZYCustomKeyboardTypeNumberDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54357171ADE42B000C63709 /* Debug */,
+				A54357181ADE42B000C63709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54356E81ADE42B000C63709 /* Project object */;
+}
